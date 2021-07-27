@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_activity1_8c" xml:lang="en-US">
+<title>src/activity1.c File Reference</title>
+<indexterm><primary>src/activity1.c</primary></indexterm>
+<programlisting>#include &lt;avr/io.h&gt;
+#include &lt;util/delay.h&gt;
+#include &quot;activity1.h&quot;
+</programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_activity1_8c_1a871b24fe7ab28eb9065f62efb702a54e">activity1</link> ()</para>
+
+<para>of activity1 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>vootla lahari sfid:260904 (<link xlink:href="mailto:you@domain.com">you@domain.com</link>) </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>0.1 </para>
+</formalpara>
+<formalpara><title>Date</title>
+
+<para>2021-04-23</para>
+</formalpara>
+<formalpara><title>Copyright</title>
+
+<para>Copyright (c) 2021 </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_activity1_8c_1a871b24fe7ab28eb9065f62efb702a54e"/>    <section>
+    <title>activity1()</title>
+<indexterm><primary>activity1</primary><secondary>activity1.c</secondary></indexterm>
+<indexterm><primary>activity1.c</primary><secondary>activity1</secondary></indexterm>
+<para><computeroutput>void activity1 ( )</computeroutput></para><para>
+
+<para>of activity1 </para>
+</para>
+</section>
+</section>
+</section>

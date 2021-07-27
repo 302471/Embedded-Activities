@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_activity4_8h" xml:lang="en-US">
+<title>inc/activity4.h File Reference</title>
+<indexterm><primary>inc/activity4.h</primary></indexterm>
+<programlisting>#include &lt;avr/io.h&gt;
+#include &lt;util/delay.h&gt;
+</programlisting><simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_activity4_8h_1a7f13ccc4ebe64b5f9a3dfa3665ac3699">UART_DATA_NOT_RECEIVED</link>   !(UCSR0A &amp; (1&lt;&lt;RXC0))</para>
+
+<para>A macro to check if the data is received into the buffer or not. </para>
+</listitem>
+            <listitem><para>#define <link linkend="_activity4_8h_1a8eb82d430503d154568d49c02b7f0556">UART_DATA_NOT_WRITTEN</link>   !(UCSR0A &amp; (1&lt;&lt;UDRE0))</para>
+
+<para>A macro to check if the data is not written into the buffer. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_activity4_8h_1a9f9cf5f74f13d365a3d9ee31d973746d">UARTinit</link> (uint16_t ubrr_value)</para>
+
+<para>A program to initialize the UART serial communication. </para>
+</listitem>
+            <listitem><para>char <link linkend="_activity4_8h_1ae83a087608eca309eff2233e1ac50a08">UARTreadchar</link> ()</para>
+
+<para>A function to read characters coming from other UART port. </para>
+</listitem>
+            <listitem><para>void <link linkend="_activity4_8h_1afca1825b81cb225b2473f8b1b5ae7ebb">UARTwritecharacter</link> (char data)</para>
+
+<para>A function to write characters to send it to other UART port. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>vootla lahari sfid:260904 (<link xlink:href="mailto:you@domain.com">you@domain.com</link>) </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>0.1 </para>
+</formalpara>
+<formalpara><title>Date</title>
+
+<para>2021-04-28</para>
+</formalpara>
+<formalpara><title>Copyright</title>
+
+<para>Copyright (c) 2021 </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="_activity4_8h_1a7f13ccc4ebe64b5f9a3dfa3665ac3699"/>    <section>
+    <title>UART_DATA_NOT_RECEIVED</title>
+<indexterm><primary>UART_DATA_NOT_RECEIVED</primary><secondary>activity4.h</secondary></indexterm>
+<indexterm><primary>activity4.h</primary><secondary>UART_DATA_NOT_RECEIVED</secondary></indexterm>
+<para><computeroutput>#define UART_DATA_NOT_RECEIVED   !(UCSR0A &amp; (1&lt;&lt;RXC0))</computeroutput></para><para>
+
+<para>A macro to check if the data is received into the buffer or not. </para>
+</para>
+    </section><anchor xml:id="_activity4_8h_1a8eb82d430503d154568d49c02b7f0556"/>    <section>
+    <title>UART_DATA_NOT_WRITTEN</title>
+<indexterm><primary>UART_DATA_NOT_WRITTEN</primary><secondary>activity4.h</secondary></indexterm>
+<indexterm><primary>activity4.h</primary><secondary>UART_DATA_NOT_WRITTEN</secondary></indexterm>
+<para><computeroutput>#define UART_DATA_NOT_WRITTEN   !(UCSR0A &amp; (1&lt;&lt;UDRE0))</computeroutput></para><para>
+
+<para>A macro to check if the data is not written into the buffer. </para>
+</para>
+</section>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_activity4_8h_1a9f9cf5f74f13d365a3d9ee31d973746d"/>    <section>
+    <title>UARTinit()</title>
+<indexterm><primary>UARTinit</primary><secondary>activity4.h</secondary></indexterm>
+<indexterm><primary>activity4.h</primary><secondary>UARTinit</secondary></indexterm>
+<para><computeroutput>void UARTinit (uint16_t ubrr_value)</computeroutput></para><para>
+
+<para>A program to initialize the UART serial communication. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>ubrr_value</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+    </section><anchor xml:id="_activity4_8h_1ae83a087608eca309eff2233e1ac50a08"/>    <section>
+    <title>UARTreadchar()</title>
+<indexterm><primary>UARTreadchar</primary><secondary>activity4.h</secondary></indexterm>
+<indexterm><primary>activity4.h</primary><secondary>UARTreadchar</secondary></indexterm>
+<para><computeroutput>char UARTreadchar ( )</computeroutput></para><para>
+
+<para>A function to read characters coming from other UART port. </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>char </para>
+</formalpara>
+</para>
+    </section><anchor xml:id="_activity4_8h_1afca1825b81cb225b2473f8b1b5ae7ebb"/>    <section>
+    <title>UARTwritecharacter()</title>
+<indexterm><primary>UARTwritecharacter</primary><secondary>activity4.h</secondary></indexterm>
+<indexterm><primary>activity4.h</primary><secondary>UARTwritecharacter</secondary></indexterm>
+<para><computeroutput>void UARTwritecharacter (char data)</computeroutput></para><para>
+
+<para>A function to write characters to send it to other UART port. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>data</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+</section>

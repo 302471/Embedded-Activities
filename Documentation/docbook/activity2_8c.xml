@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_activity2_8c" xml:lang="en-US">
+<title>src/activity2.c File Reference</title>
+<indexterm><primary>src/activity2.c</primary></indexterm>
+<programlisting>#include &lt;avr/io.h&gt;
+#include &quot;activity2.h&quot;
+</programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_activity2_8c_1aebf00c4b26377bca91c8702ced5e7927">InitADC</link> ()</para>
+
+<para>of Analog to Digital convertor </para>
+</listitem>
+            <listitem><para>uint16_t <link linkend="_activity2_8c_1aa4b8e2a1d871469a984604dd995a2402">ReadADC</link> (uint8_t ch)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>vootla lahari sfid:260904 (<link xlink:href="mailto:you@domain.com">you@domain.com</link>) </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>0.1 </para>
+</formalpara>
+<formalpara><title>Date</title>
+
+<para>2021-04-27</para>
+</formalpara>
+<formalpara><title>Copyright</title>
+
+<para>Copyright (c) 2021 </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_activity2_8c_1aebf00c4b26377bca91c8702ced5e7927"/>    <section>
+    <title>InitADC()</title>
+<indexterm><primary>InitADC</primary><secondary>activity2.c</secondary></indexterm>
+<indexterm><primary>activity2.c</primary><secondary>InitADC</secondary></indexterm>
+<para><computeroutput>void InitADC ( )</computeroutput></para><para>
+
+<para>of Analog to Digital convertor </para>
+</para>
+    </section><anchor xml:id="_activity2_8c_1aa4b8e2a1d871469a984604dd995a2402"/>    <section>
+    <title>ReadADC()</title>
+<indexterm><primary>ReadADC</primary><secondary>activity2.c</secondary></indexterm>
+<indexterm><primary>activity2.c</primary><secondary>ReadADC</secondary></indexterm>
+<para><computeroutput>uint16_t ReadADC (uint8_t ch)</computeroutput></para></section>
+</section>
+</section>

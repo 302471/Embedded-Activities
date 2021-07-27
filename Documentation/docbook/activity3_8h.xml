@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_activity3_8h" xml:lang="en-US">
+<title>inc/activity3.h File Reference</title>
+<indexterm><primary>inc/activity3.h</primary></indexterm>
+<programlisting>#include &lt;avr/io.h&gt;
+</programlisting><simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_activity3_8h_1a8a78ec8345d05a459dc216d4277a34c1">SET_TIMER1A</link>   TCCR1A|=(1&lt;&lt;COM1A1)|(1&lt;&lt;WGM10)|(1&lt;&lt;WGM11)</para>
+</listitem>
+            <listitem><para>#define <link linkend="_activity3_8h_1a8ef1c1674bc0e2e5a50b5ef05333acbb">PRESCALER_64</link>   TCCR1B|=(1&lt;&lt;WGM12)|(1&lt;&lt;CS11)|(1&lt;&lt;CS10)</para>
+</listitem>
+            <listitem><para>#define <link linkend="_activity3_8h_1abe0cfdd3d90cb02535ad073454a65bd9">SET_PWM</link>   DDRB|=(1&lt;&lt;PB1)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_activity3_8h_1ace20dccb4a1c5de98627aaeef7278b26">activity3</link> (void)</para>
+
+<para>of activity3 </para>
+</listitem>
+            <listitem><para>void <link linkend="_activity3_8h_1a0fd424c5797b6dd233c2a4a402a66e7d">PWMoutput</link> (uint16_t ADC_Value)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>vootla lahari sfid:260904 (<link xlink:href="mailto:you@domain.com">you@domain.com</link>) </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>0.1 </para>
+</formalpara>
+<formalpara><title>Date</title>
+
+<para>2021-04-28</para>
+</formalpara>
+<formalpara><title>Copyright</title>
+
+<para>Copyright (c) 2021 </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="_activity3_8h_1a8ef1c1674bc0e2e5a50b5ef05333acbb"/>    <section>
+    <title>PRESCALER_64</title>
+<indexterm><primary>PRESCALER_64</primary><secondary>activity3.h</secondary></indexterm>
+<indexterm><primary>activity3.h</primary><secondary>PRESCALER_64</secondary></indexterm>
+<para><computeroutput>#define PRESCALER_64   TCCR1B|=(1&lt;&lt;WGM12)|(1&lt;&lt;CS11)|(1&lt;&lt;CS10)</computeroutput></para>    </section><anchor xml:id="_activity3_8h_1abe0cfdd3d90cb02535ad073454a65bd9"/>    <section>
+    <title>SET_PWM</title>
+<indexterm><primary>SET_PWM</primary><secondary>activity3.h</secondary></indexterm>
+<indexterm><primary>activity3.h</primary><secondary>SET_PWM</secondary></indexterm>
+<para><computeroutput>#define SET_PWM   DDRB|=(1&lt;&lt;PB1)</computeroutput></para>    </section><anchor xml:id="_activity3_8h_1a8a78ec8345d05a459dc216d4277a34c1"/>    <section>
+    <title>SET_TIMER1A</title>
+<indexterm><primary>SET_TIMER1A</primary><secondary>activity3.h</secondary></indexterm>
+<indexterm><primary>activity3.h</primary><secondary>SET_TIMER1A</secondary></indexterm>
+<para><computeroutput>#define SET_TIMER1A   TCCR1A|=(1&lt;&lt;COM1A1)|(1&lt;&lt;WGM10)|(1&lt;&lt;WGM11)</computeroutput></para></section>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_activity3_8h_1ace20dccb4a1c5de98627aaeef7278b26"/>    <section>
+    <title>activity3()</title>
+<indexterm><primary>activity3</primary><secondary>activity3.h</secondary></indexterm>
+<indexterm><primary>activity3.h</primary><secondary>activity3</secondary></indexterm>
+<para><computeroutput>void activity3 (void )</computeroutput></para><para>
+
+<para>of activity3 </para>
+</para>
+    </section><anchor xml:id="_activity3_8h_1a0fd424c5797b6dd233c2a4a402a66e7d"/>    <section>
+    <title>PWMoutput()</title>
+<indexterm><primary>PWMoutput</primary><secondary>activity3.h</secondary></indexterm>
+<indexterm><primary>activity3.h</primary><secondary>PWMoutput</secondary></indexterm>
+<para><computeroutput>void PWMoutput (uint16_t ADC_Value)</computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>ADC_Value</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+</section>

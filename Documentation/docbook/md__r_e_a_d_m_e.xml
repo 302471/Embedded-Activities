@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_md__r_e_a_d_m_e" xml:lang="en-US">
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md1">
+<title>Activity1</title>
+
+<para><informaltable frame="all">
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<thead>
+      <row  class='markdownTableHead'>
+<entry>
+<para>ON   </para>
+</entry><entry>
+<para>OFF    </para>
+</entry></row>
+</thead><tbody>
+      <row  class='markdownTableRowOdd'>
+<entry>
+<para>   </para>
+</entry><entry>
+<para>   </para>
+</entry></row>
+    </tbody>
+    </tgroup>
+</informaltable>
+</para>
+</section>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md2">
+<title>Activity2</title>
+
+<para></para>
+</section>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md3">
+<title>Activity3</title>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md4">
+<title>20% of dutycycle</title>
+
+<para></para>
+</section>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md5">
+<title>40% of dutycycle</title>
+
+<para></para>
+</section>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md6">
+<title>80% of dutycycle</title>
+
+<para></para>
+</section>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md7">
+<title>100% of dutycycle</title>
+
+<para></para>
+</section>
+</section>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md8">
+<title>SeatHeaterApplication</title>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md9">
+<title>Activity 4</title>
+</section>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md10">
+<title>ON condition</title>
+
+<para></para>
+</section>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md11">
+<title>OFF condition</title>
+
+<para></para>
+</section>
+</section>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md12">
+<title>In Action</title>
+
+<para><informaltable frame="all">
+    <tgroup cols="3" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+      <colspec colname='c3'/>
+<thead>
+      <row  class='markdownTableHead'>
+<entry>
+<para>Build   </para>
+</entry><entry>
+<para>CppCheck   </para>
+</entry><entry>
+<para>Codacy    </para>
+</entry></row>
+</thead><tbody>
+      <row  class='markdownTableRowOdd'>
+<entry>
+<para><link xlink:href="https://github.com/Lahari-1999/Embedded_AVR_project/actions/workflows/compile.yml"></link>   </para>
+</entry><entry>
+<para><link xlink:href="https://github.com/Lahari-1999/Embedded_AVR_project/actions/workflows/CodeQuality.yml"></link>   </para>
+</entry><entry>
+<para><link xlink:href="https://www.codacy.com/gh/Lahari-1999/Embedded_AVR_project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Lahari-1999/Embedded_AVR_project&amp;utm_campaign=Badge_Grade"></link>   </para>
+</entry></row>
+    </tbody>
+    </tgroup>
+</informaltable>
+</para>
+</section>
+</section>

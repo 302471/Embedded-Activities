@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_activity1_8h" xml:lang="en-US">
+<title>inc/activity1.h File Reference</title>
+<indexterm><primary>inc/activity1.h</primary></indexterm>
+<programlisting>#include &lt;avr/io.h&gt;
+</programlisting><simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_activity1_8h_1ae64f9b67d50323de9ce986c546b5f4df">SET_LED</link>   DDRB|=(1&lt;&lt;PB0)</para>
+</listitem>
+            <listitem><para>#define <link linkend="_activity1_8h_1a03a5076d24983e87e8f25eac5e57870c">CLEAR_BUTTON_DATA</link>   DDRD&amp;=~(1&lt;&lt;PD0)</para>
+</listitem>
+            <listitem><para>#define <link linkend="_activity1_8h_1ae016c23d9ffcb7e7f1b6d69a33f4d624">CLEAR_HEATER_DATA</link>   DDRD&amp;=~(1&lt;&lt;PD1)</para>
+</listitem>
+            <listitem><para>#define <link linkend="_activity1_8h_1ad36058e337234e4708c6629823266be4">PULLUP_BUTTON</link>   PORTD|=(1&lt;&lt;PD0)</para>
+</listitem>
+            <listitem><para>#define <link linkend="_activity1_8h_1ac8b59ac050abeec3854a628b780d8443">PULLUP_HEATER</link>   PORTD|=(1&lt;&lt;PD1)</para>
+</listitem>
+            <listitem><para>#define <link linkend="_activity1_8h_1aeb6e2779b3363e9c0500d74c7ef6dc78">BUTTON_ON</link>   (PIND&amp;(1&lt;&lt;PD0))</para>
+</listitem>
+            <listitem><para>#define <link linkend="_activity1_8h_1add6ca5edc6baca7a46a3e6604f4a7e20">HEATER_ON</link>   (PIND&amp;(1&lt;&lt;PD1))</para>
+</listitem>
+            <listitem><para>#define <link linkend="_activity1_8h_1ac5334c63fcb3b3800466b05c9ec212c9">SET_LED_ON</link>   PORTB|=(1&lt;&lt;PB0)</para>
+</listitem>
+            <listitem><para>#define <link linkend="_activity1_8h_1ac6227779a538ce6b2c9cb1a48e9b6dcd">SET_LED_OFF</link>   PORTB&amp;=~(1&lt;&lt;PB0)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_activity1_8h_1a871b24fe7ab28eb9065f62efb702a54e">activity1</link> ()</para>
+
+<para>of activity1 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><formalpara><title>Author</title>
+
+<para>vootla lahari sfid:260904 (<link xlink:href="mailto:you@domain.com">you@domain.com</link>) </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>0.1 </para>
+</formalpara>
+<formalpara><title>Date</title>
+
+<para>2021-04-23</para>
+</formalpara>
+<formalpara><title>Copyright</title>
+
+<para>Copyright (c) 2021 </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="_activity1_8h_1aeb6e2779b3363e9c0500d74c7ef6dc78"/>    <section>
+    <title>BUTTON_ON</title>
+<indexterm><primary>BUTTON_ON</primary><secondary>activity1.h</secondary></indexterm>
+<indexterm><primary>activity1.h</primary><secondary>BUTTON_ON</secondary></indexterm>
+<para><computeroutput>#define BUTTON_ON   (PIND&amp;(1&lt;&lt;PD0))</computeroutput></para>    </section><anchor xml:id="_activity1_8h_1a03a5076d24983e87e8f25eac5e57870c"/>    <section>
+    <title>CLEAR_BUTTON_DATA</title>
+<indexterm><primary>CLEAR_BUTTON_DATA</primary><secondary>activity1.h</secondary></indexterm>
+<indexterm><primary>activity1.h</primary><secondary>CLEAR_BUTTON_DATA</secondary></indexterm>
+<para><computeroutput>#define CLEAR_BUTTON_DATA   DDRD&amp;=~(1&lt;&lt;PD0)</computeroutput></para>    </section><anchor xml:id="_activity1_8h_1ae016c23d9ffcb7e7f1b6d69a33f4d624"/>    <section>
+    <title>CLEAR_HEATER_DATA</title>
+<indexterm><primary>CLEAR_HEATER_DATA</primary><secondary>activity1.h</secondary></indexterm>
+<indexterm><primary>activity1.h</primary><secondary>CLEAR_HEATER_DATA</secondary></indexterm>
+<para><computeroutput>#define CLEAR_HEATER_DATA   DDRD&amp;=~(1&lt;&lt;PD1)</computeroutput></para>    </section><anchor xml:id="_activity1_8h_1add6ca5edc6baca7a46a3e6604f4a7e20"/>    <section>
+    <title>HEATER_ON</title>
+<indexterm><primary>HEATER_ON</primary><secondary>activity1.h</secondary></indexterm>
+<indexterm><primary>activity1.h</primary><secondary>HEATER_ON</secondary></indexterm>
+<para><computeroutput>#define HEATER_ON   (PIND&amp;(1&lt;&lt;PD1))</computeroutput></para>    </section><anchor xml:id="_activity1_8h_1ad36058e337234e4708c6629823266be4"/>    <section>
+    <title>PULLUP_BUTTON</title>
+<indexterm><primary>PULLUP_BUTTON</primary><secondary>activity1.h</secondary></indexterm>
+<indexterm><primary>activity1.h</primary><secondary>PULLUP_BUTTON</secondary></indexterm>
+<para><computeroutput>#define PULLUP_BUTTON   PORTD|=(1&lt;&lt;PD0)</computeroutput></para>    </section><anchor xml:id="_activity1_8h_1ac8b59ac050abeec3854a628b780d8443"/>    <section>
+    <title>PULLUP_HEATER</title>
+<indexterm><primary>PULLUP_HEATER</primary><secondary>activity1.h</secondary></indexterm>
+<indexterm><primary>activity1.h</primary><secondary>PULLUP_HEATER</secondary></indexterm>
+<para><computeroutput>#define PULLUP_HEATER   PORTD|=(1&lt;&lt;PD1)</computeroutput></para>    </section><anchor xml:id="_activity1_8h_1ae64f9b67d50323de9ce986c546b5f4df"/>    <section>
+    <title>SET_LED</title>
+<indexterm><primary>SET_LED</primary><secondary>activity1.h</secondary></indexterm>
+<indexterm><primary>activity1.h</primary><secondary>SET_LED</secondary></indexterm>
+<para><computeroutput>#define SET_LED   DDRB|=(1&lt;&lt;PB0)</computeroutput></para>    </section><anchor xml:id="_activity1_8h_1ac6227779a538ce6b2c9cb1a48e9b6dcd"/>    <section>
+    <title>SET_LED_OFF</title>
+<indexterm><primary>SET_LED_OFF</primary><secondary>activity1.h</secondary></indexterm>
+<indexterm><primary>activity1.h</primary><secondary>SET_LED_OFF</secondary></indexterm>
+<para><computeroutput>#define SET_LED_OFF   PORTB&amp;=~(1&lt;&lt;PB0)</computeroutput></para>    </section><anchor xml:id="_activity1_8h_1ac5334c63fcb3b3800466b05c9ec212c9"/>    <section>
+    <title>SET_LED_ON</title>
+<indexterm><primary>SET_LED_ON</primary><secondary>activity1.h</secondary></indexterm>
+<indexterm><primary>activity1.h</primary><secondary>SET_LED_ON</secondary></indexterm>
+<para><computeroutput>#define SET_LED_ON   PORTB|=(1&lt;&lt;PB0)</computeroutput></para></section>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_activity1_8h_1a871b24fe7ab28eb9065f62efb702a54e"/>    <section>
+    <title>activity1()</title>
+<indexterm><primary>activity1</primary><secondary>activity1.h</secondary></indexterm>
+<indexterm><primary>activity1.h</primary><secondary>activity1</secondary></indexterm>
+<para><computeroutput>void activity1 ( )</computeroutput></para><para>
+
+<para>of activity1 </para>
+</para>
+</section>
+</section>
+</section>
