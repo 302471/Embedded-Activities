@@ -34,5 +34,6 @@
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
-[![Compile-Linux](https://github.com/302471/Embedded-Activities/actions/workflows/compile.yml/badge.svg)](https://github.com/302471/Embedded-Activities/actions/workflows/compile.yml)  [![Cppcheck](https://github.com/302471/Embedded-Activities/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/302471/Embedded-Activities/actions/workflows/CodeQuality.yml)   
+[![Compile-Linux](https://github.com/302471/Embedded-Activities/actions/workflows/compile.yml/badge.svg)](https://github.com/302471/Embedded-Activities/actions/workflows/compile.yml)  
+[![Cppcheck](https://github.com/302471/Embedded-Activities/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/302471/Embedded-Activities/actions/workflows/CodeQuality.yml)   
 
