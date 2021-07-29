@@ -34,5 +34,6 @@
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/479726438ef442d8b5b789f5f9a26ac8)](https://app.codacy.com/gh/302471/Embedded-Activities?utm_source=github.com&utm_medium=referral&utm_content=302471/Embedded-Activities&utm_campaign=Badge_Grade_Settings)
 [![Compile-Linux](https://github.com/302471/Embedded-Activities/actions/workflows/compile.yml/badge.svg)](https://github.com/302471/Embedded-Activities/actions/workflows/compile.yml)  [![Cppcheck](https://github.com/302471/Embedded-Activities/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/302471/Embedded-Activities/actions/workflows/CodeQuality.yml)   
 
